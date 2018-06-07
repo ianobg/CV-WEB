@@ -40,6 +40,10 @@ a {
     color:firebrick
 }
 
+a:hover {
+    color:darkred
+}
+
 #ibm {
     
     margin-right: 20%;
