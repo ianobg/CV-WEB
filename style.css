@@ -5,54 +5,61 @@ html, body {
     font-family: Georgia, serif;
 }
 
-h1, h2, h4 {
-    font-family: Georgia;
-}
-
 h2 {
-    color: #404040;    
+    font-family: Courier, sans-serif;
+    font-size: 30px;
+    color: #404040;
 }
 
 h3 {
     color: #595959;
     font-style: italic;
+    height: 27px;
 }
 
 .tit {
     color: floralwhite;
     background-color:grey;
     border: 1px solid #000;
+    margin-left: 0.4px;
 }
 
 .Inf {
-    color: white;
+    color: black;
     background-color:darkgray;
     border: 1px solid #000;
+    margin-left: 0.4px;
+    
 }
 
 #img {
-    float: right;
-    margin-right: 20%;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: -22px;
     border-color:black;
+    
 }
 
 a {
-    color:firebrick
+    color:firebrick;
 }
 
 a:hover {
-    color:darkred
+    color:darkred;
 }
 
 #ibm {
     
     margin-right: 20%;
     border-color:black;
+    margin-left: 1px;
 }
 
 .exp {
-    color: white;
+    color: black;
     background-color:darkgray;
     border: 1px solid #000;
-    height: 80px
+    height: 80px;
+    margin-left: 0.4px;    
 }
